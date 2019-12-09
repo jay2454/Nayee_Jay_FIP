@@ -1,0 +1,369 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+p
+{
+	color: black;
+	text-align: center;
+	margin: 0;
+}
+
+/*basic reset*/
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*html selectors*/
+
+body
+{
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+
+a:link, a:visited{
+	text-decoration: none;
+}
+
+a:hover, a:active{
+	text-decoration: none;
+}
+
+.hidden
+{
+	display: none;
+}
+
+#topbar
+{
+	background-color: #000;
+	height: 20px;
+}
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 920px;
+}
+
+/*Start Header*/
+
+#mainHeader
+{
+	margin: 0px auto;
+	width: 920px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+}
+
+#logo
+{
+	width: 200px;
+	
+}
+
+
+#mainNav
+{
+	margin-left: auto;
+	width: 500px;
+	height: 25px;
+	margin-top: 50px;
+}
+
+#mainNav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+#mainNav ul li{
+  font-size: 14px;
+  display: inline;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+#mainNav ul li a{
+	display: inline;
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	
+}
+#mainNav ul li a.current {
+	color: #FF2A03;
+}
+#mainNav ul li a:hover {
+	color: white;
+	background-color: #FF2A03;
+	padding: 10px;
+
+}
+
+/*Close Header*/
+
+/*Open Index*/ 
+
+#promo img {
+	width: 920px;
+	
+}
+
+#productInfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 40px;
+	width: 200px;
+	margin-top: 40px;
+}
+
+.productDescLargeLeft {
+	
+	margin-right:100px;
+
+}
+#productInfo h2 {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 30px;
+	color: #333;
+
+}
+
+ #productInfo p {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #333;
+	margin-top: 10px;
+	line-height: 18px;
+}
+
+/*Close Index*/
+
+
+/* Open Accesories & Shoes */
+
+
+#mainGallery, #mainGallery2 {
+	width: 460px;
+ 	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-basis: 50%;
+	flex-wrap: wrap;
+}
+
+.galleryImageCon img, .galleryImageCon2 img {
+	width: 213px;
+	height: 220px;
+	border: solid 1px #ccc;
+	margin:0 ;
+}
+
+.allGal {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+.rightGal .leftGal {	
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	
+}
+.allGal .leftGal{
+	padding-left: 50px;
+}
+.allGal .rightGal{
+	margin-right: 50px;
+
+}
+
+ h4 {
+	padding-bottom: 50px;
+	padding-left: 50px;
+	font-family: Arial;
+	text-align: center;
+	font-size: 20px;
+}
+
+#mainGallery, #mainGallery2 {
+	display:flex;
+	flex-direction:row;
+	margin:0 auto;
+	flex-wrap: wrap;
+}
+
+.productPic {
+	margin: 10px;
+}
+
+.productPic2 {
+	margin: 10px;
+}
+
+/*Accessories & Shoes Close*/
+
+
+
+
+/* Contact open*/
+
+
+#mainContact {
+  width: 940px;
+  padding-top: 20px;
+  padding-left: 300px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#mainContact h2 {
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+  width: 940px;
+}
+
+#contactArea {
+  width: 469px;
+  border-right: solid 1px #CCC;
+  margin-bottom: 30px;
+}
+
+#contactForm {
+  margin-top: 30px;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+}
+
+
+input, textarea  {
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: #efefef;
+  display: block;
+  border: 1px solid #999;
+  color: #333;
+}
+
+#comments {
+  width: 360px;
+  height: 200px;
+}
+
+#submit {
+  display: block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 30px;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  font-size: 14px;
+  border: 1px solid #003471;
+}
+
+#mapArea {
+  width: 380px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+
+#mapArea h3 {
+  font-size: 21px;
+  margin-top: 0;
+  color: red;
+}
+
+#mapArea ul {
+  list-style-type: none;
+  padding: 0;
+} 
+
+/* Contact close */
+
+
+/*Open Footer*/
+
+#mainFooter
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+#footerNav {
+	width: 400px;
+	margin-left: 300px;
+}
+
+#mainFooter ul li a{
+	display: inline-block;
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	margin-top: 50px;
+}
+
+#copyRight{
+	float: right;
+	margin-left: 400px;
+}
+
+#copyRight h3{
+	margin-top: 25px;
+}
+
+/*Close Footer*/
+
+

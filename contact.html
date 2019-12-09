@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Foxira Co. -Contact</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
+</head>
+<body>
+    <h2 class="hidden">Foxira Co.</h2>
+    <div class="container"><!--start container-->
+        <header id="mainHeader">
+            <div id="logo">
+                <img src="images/foxira.png" alt="logo">
+            </div><!--end logo-->
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                     <li><a href="shoes.html">Shoes</a></li>
+                      <li><a href="accessories.html">Accesories</a></li>
+                       <li><a href="#" class="current">Contact Us</a></li>
+
+                </ul>
+            </nav><!--end mainNav-->
+        </header><!--end mainHeader-->
+
+        
+        <main>
+        <section id="mainContact"> <!--start mainGallery-->
+                    <h2>Contact Us</h2>
+            <section id="contactArea"><!--start contactArea-->
+                <h2 class="hidden">Contact form</h2>
+                
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+
+                    <label for="name">Address Line 1: (required)</label>
+                    <input type="text" required id="address" size="30" placeholder="Enter your address">
+
+                    <label for="name">Address Line 2: (optional)</label>
+                    <input type="text" required id="address" size="30" placeholder="Enter your address">
+
+                    <label for="phone">Zip Code: (required)</label>
+                    <input type="text" required id="zip" size="30" placeholder="Enter Zip Code">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+
+                    <input id="submit" type="submit" value="Submit">
+                    
+                   
+            </form>
+            </section><!--end contactArea-->  
+            
+            <section id="mapArea"><!--start mapArea-->
+                <h3>Visit Us</h3>
+                <ul>
+                    <li>Foxira co., </li>
+                    <li>London; Ontario </li>
+                    <li>Email: foxira@gmail.com</li>
+                    <li>Fax: 1-800-MO-foxira</li>
+                </ul>    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186905.5356268912!2d-81.38870364476357!3d42.94879559587579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef20ea88d9b0b%3A0x28c7d7699a056b95!2sLondon%2C%20ON!5e0!3m2!1sen!2sca!4v1575683482363!5m2!1sen!2sca" width="380" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </section><!--end mapArea-->      
+        </section><!--end mainContact-->
+    </main>
+        <footer id="mainFooter">
+            <div id="footerNav">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                     <li><a href="shoes.html">Shoes</a></li>
+                      <li><a href="accessories.html">Accesories</a></li>
+                       <li><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+            </div><!--end FooterNav-->
+            <div id="copyRight">
+                <h3>RETURN POLICY<br>
+                    TERMS & CONDITIONS<br>
+                    PRIVACY POLICY<br>
+                    © foxira 2019
+                    </h3>
+                
+            </div><!--end Copyright-->
+        </footer><!--end mainFooter-->
+    </div><!--end siteContainer-->
+
+</body>
+</html>
